@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+  xmlns:gap="http://phonegap.com/ns/1.0"
+  id="uk.co.londonlayout.pear"
+  version="0.1.0">
+  <name>Hammerhead test</name>
+  <description>
+    A Simple app to view hammerhead test
+  </description>
+  <author href="http://londonlayout.co.uk" email="petersaxton@londonlayout.co.uk">
+    Peter Saxton
+  </author>
+  <feature name="http://api.phonegap.com/1.0/device"/>
+  <preference name="phonegap-version" value="3.3.0"/>
+  <preference name="orientation" value="default"/>
+  <preference name="target-device" value="universal"/>
+  <preference name="fullscreen" value="false"/>
+  <icon src="icon.png"/>
+  <gap:plugin name="org.apache.cordova.device" />
+</widget>
